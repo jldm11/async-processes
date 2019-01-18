@@ -1,7 +1,7 @@
 {
   "name": "async-processes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Async calls using callbacks, promises or async/await",
   "main": "",
   "scripts": {
     "callback-series": "node callbacks.js series",
