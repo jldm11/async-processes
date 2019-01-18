@@ -11,7 +11,7 @@
     "async-await-series": "node async_await.js series",
     "async-await-parallel": "node async_await.js parallel"
   },
-  "author": "",
+  "author": "José Luis Díaz Montellano",
   "license": "ISC",
   "dependencies": {
     "async": "^2.6.1"
