@@ -1,0 +1,19 @@
+{
+  "name": "async-processes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback-series": "node callbacks.js series",
+    "callback-parallel": "node callbacks.js parallel",
+    "promise-series": "node promises.js series",
+    "promise-parallel": "node promises.js parallel",
+    "async-await-series": "node async_await.js series",
+    "async-await-parallel": "node async_await.js parallel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1"
+  }
+}
