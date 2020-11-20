@@ -36,9 +36,9 @@ if (processing === 'series') {
         let result3 = await thirdAsyncProcess()
 
         const results = [
-            await result1,
-            await result2,
-            await result3
+            result1,
+            result2,
+            result3
         ]
 
         console.log('All processes are done')
